@@ -1,0 +1,28 @@
+   public void PrevBtnPressed()
+    {
+        CurrentIndex = ((CurrentIndex - 1) % Contents.Count);
+            if (CurrentIndex<0)
+            CurrentIndex= CurrentIndex+  Contents.Count;
+        Debug.Log(CurrentIndex);
+        foreach (GameObject g in Contents)
+        {
+            g.SetActive(false);
+        }
+
+        Contents[CurrentIndex].SetActive(true);
+
+        Debug.Log("пресссед prev btn");
+    }
+
+    public void NextBtnPressed()
+    {
+        
+        CurrentIndex = (CurrentIndex + 1)% Contents.Count;
+        foreach (GameObject g in Contents)
+        {
+            g.SetActive(false);
+        }
+
+        Contents[CurrentIndex].SetActive(true);
+        Debug.Log("пресссед next btn");
+    }
