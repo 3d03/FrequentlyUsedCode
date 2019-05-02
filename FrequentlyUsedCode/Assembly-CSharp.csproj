@@ -61,7 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\OnEnableEvent.cs" />
+    <Compile Include="Assets\RaycastMask.cs" />
+    <Compile Include="Assets\ReverseNormals.cs" />
     <Compile Include="Assets\Scripts\ArrayListingController.cs" />
+    <Compile Include="Assets\Scripts\DisableEnableByScaleTo0.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\MousePanC.cs" />
     <Compile Include="Assets\Scripts\MouseZoom.cs" />
@@ -69,6 +73,8 @@
     <Compile Include="Assets\Scripts\SelectableObject.cs" />
     <Compile Include="Assets\Scripts\SmoothCameraOrbitCsharp.cs" />
     <Compile Include="Assets\Scripts\StringToFieldTest.cs" />
+    <Compile Include="Assets\Scripts\UI\ButtonCyclic.cs" />
+    <Compile Include="Assets\Scripts\UI\DelayedEvent.cs" />
     <Compile Include="Assets\Scripts\UI\EditorUI\ToggleDependableHider.cs" />
     <Compile Include="Assets\Scripts\UI\EscListener.cs" />
     <None Include="Assets\Scripts\IsPointerOverUIObject.txt" />
