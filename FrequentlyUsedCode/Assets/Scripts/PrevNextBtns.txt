@@ -11,7 +11,7 @@
 
         Contents[CurrentIndex].SetActive(true);
 
-        Debug.Log("пресссед prev btn");
+        Debug.Log("prev btn pressed");
     }
 
     public void NextBtnPressed()
@@ -24,5 +24,5 @@
         }
 
         Contents[CurrentIndex].SetActive(true);
-        Debug.Log("пресссед next btn");
+        Debug.Log("next btn pressed");
     }

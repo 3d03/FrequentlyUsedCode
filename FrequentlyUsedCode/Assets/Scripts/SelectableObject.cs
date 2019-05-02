@@ -4,7 +4,7 @@ using System.Collections;
 public class SelectableObject : MonoBehaviour
 {
 	public Rect m_SelectionWindowRect = new Rect (10.0f, 10.0f, 300.0f, 100.0f);
-	
+    public bool showSelectionInfo;
 	public void OnMouseDown ()
 	{
 		SelectionManager.Select (gameObject, !SelectionManager.IsSelected (gameObject));
@@ -17,23 +17,23 @@ public class SelectableObject : MonoBehaviour
 	
 	public void Update ()
 	{
-		renderer.material.color = SelectionManager.IsSelected (gameObject) ? Color.green : Color.white;
+		GetComponent<Renderer>().material.color = SelectionManager.IsSelected (gameObject) ? Color.green : Color.white;
 	}
 	
 	public void OnGUI ()
 	{
-		if (SelectionManager.IsSelected (gameObject))
-		{
-			m_SelectionWindowRect = GUI.Window (GetInstanceID (), m_SelectionWindowRect, SelectionWindow, gameObject.name);
-		
-			
-		}
+        if (showSelectionInfo)
+            if (SelectionManager.IsSelected (gameObject))
+		    {
+			    m_SelectionWindowRect = GUI.Window (GetInstanceID (), m_SelectionWindowRect, SelectionWindow, gameObject.name);
+		    }
 	}
 	
 	void SelectionWindow (int id)
 	{
-		GUILayout.Box ("I am the selection and my name is " + gameObject.name);
-		GUI.DragWindow ();
+     
+            GUILayout.Box("I am the selection and my name is " + gameObject.name);
+            GUI.DragWindow();
 	}
 }
 
