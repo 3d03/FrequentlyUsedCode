@@ -69,10 +69,11 @@
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\MousePanC.cs" />
     <Compile Include="Assets\Scripts\MouseZoom.cs" />
-    <Compile Include="Assets\Scripts\ObjectRotator.cs" />
     <Compile Include="Assets\Scripts\SelectableObject.cs" />
     <Compile Include="Assets\Scripts\SmoothCameraOrbitCsharp.cs" />
     <Compile Include="Assets\Scripts\StringToFieldTest.cs" />
+    <Compile Include="Assets\Scripts\Transformation\ObjectRotator.cs" />
+    <Compile Include="Assets\Scripts\Transformation\RotateTowards.cs" />
     <Compile Include="Assets\Scripts\UI\ButtonCyclic.cs" />
     <Compile Include="Assets\Scripts\UI\DelayedEvent.cs" />
     <Compile Include="Assets\Scripts\UI\EscListener.cs" />
