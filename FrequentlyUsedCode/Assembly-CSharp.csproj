@@ -77,7 +77,9 @@
     <Compile Include="Assets\Scripts\UI\DelayedEvent.cs" />
     <Compile Include="Assets\Scripts\UI\EditorUI\ToggleDependableHider.cs" />
     <Compile Include="Assets\Scripts\UI\EscListener.cs" />
+    <Compile Include="Assets\Scripts\Web\TextGetter.cs" />
     <None Include="Assets\Scripts\IsPointerOverUIObject.txt" />
+    <None Include="Assets\RemotFolder\toTestGetText.txt" />
     <None Include="Assets\Scripts\PrevNextBtns.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>G:/uniworks/FrequentlyUsedCode/FrequentlyUsedCode/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

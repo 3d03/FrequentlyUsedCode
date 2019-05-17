@@ -10,11 +10,15 @@ public enum stateEnum { OnEnable,   OnBecameInvisible, OnBecameVisible, Custom}
 [System.Serializable]
 public class stateAndItsEvents
 {
+    public string Name;
     public float executionDelay;
     [Space(20)]
     public stateEnum state;
     public UnityEvent _event;
-    
+    public stateAndItsEvents()
+    {
+        Name = state.ToString();
+    }
 }
 
 public class OnEnableEvent : MonoBehaviour {
