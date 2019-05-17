@@ -12,11 +12,7 @@ public class TextGetter : MonoBehaviour
     {
         if (shouldGetOnStart)
             StartCoroutine(GetText());
-    }
 
-    void Update()
-    {
-        
     }
 
     IEnumerator GetText()
