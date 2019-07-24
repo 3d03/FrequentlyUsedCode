@@ -1,0 +1,16 @@
+https://gamedev.stackexchange.com/questions/147915/what-does-navmesh-allareas-specify-in-unity
+
+
+
+
+   int mask = 0;
+        mask += 1 << NavMesh.GetAreaFromName("Walkable");
+        mask += 0 << NavMesh.GetAreaFromName("Not walkable");
+        mask += 1 << NavMesh.GetAreaFromName("Jump");
+        //mask += 1 << NavMesh.GetAreaFromName("Water");
+        //mask += 1 << NavMesh.GetAreaFromName("Door");
+        Debug.Log("mask" + mask);
+
+        NavMesh.CalculatePath(startPos.position, EndPos.position, mask, path);
+        pathCornersNEW = path.corners.ToList();
+        Debug.Log("(path.corners.Length)" + path.corners.Length);
