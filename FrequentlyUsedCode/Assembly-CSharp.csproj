@@ -60,6 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\OnEnableEvent.cs" />
     <Compile Include="Assets\RaycastMask.cs" />
     <Compile Include="Assets\ReverseNormals.cs" />
@@ -83,6 +90,9 @@
     <Compile Include="Assets\Scripts\SmoothCameraOrbitCsharp.cs" />
     <Compile Include="Assets\Scripts\StringToFieldTest.cs" />
     <Compile Include="Assets\Scripts\Testing.cs" />
+    <Compile Include="Assets\Scripts\Tests\CoroutinesTests\CoroutTestOne.cs" />
+    <Compile Include="Assets\Scripts\Tests\ObjectFinalization\TreeController.cs" />
+    <Compile Include="Assets\Scripts\Tests\OOP_SOLID\InheritanceTests.cs" />
     <Compile Include="Assets\Scripts\Tests\ReflectionTests.cs" />
     <Compile Include="Assets\Scripts\Tests\SerializationTests\Car.cs" />
     <Compile Include="Assets\Scripts\Tests\SerializationTests\CarMover.cs" />
@@ -94,6 +104,7 @@
     <Compile Include="Assets\Scripts\UI\ButtonCyclic.cs" />
     <Compile Include="Assets\Scripts\UI\DelayedEvent.cs" />
     <Compile Include="Assets\Scripts\UI\EscListener.cs" />
+    <Compile Include="Assets\Scripts\UI\HideBeyondScreenComponent.cs" />
     <Compile Include="Assets\Scripts\UI\SwipeManager.cs" />
     <Compile Include="Assets\Scripts\Web\TextGetter.cs" />
     <Compile Include="Assets\Scripts\Web\TextGetterTesting.cs" />
@@ -101,6 +112,7 @@
     <None Include="Assets\RemoteFolder\toTestGetTextFromGithub.txt" />
     <None Include="Assets\Scripts\PrevNextBtns.txt" />
     <None Include="Assets\Scripts\Transformation\ScaleAround.txt" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\NavMesh Navigation\Просчет пути.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>G:/uniworks/FrequentlyUsedCode/FrequentlyUsedCode/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -332,6 +344,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>G:/Program Files OLD/Unity3d 2018.1/2019.2.0b7/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>G:/uniworks/FrequentlyUsedCode/FrequentlyUsedCode/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>G:/uniworks/FrequentlyUsedCode/FrequentlyUsedCode/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
