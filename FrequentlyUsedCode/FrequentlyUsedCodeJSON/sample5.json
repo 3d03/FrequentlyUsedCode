@@ -299,7 +299,7 @@
 			"description": "Современному городу – современные технологии! Модульная конструкция позволяет собрать все необходимые функции в одной опоре: Wi-Fi, зарядка для электромобилей, общее и декоративное освещение, громкоговоритель, видеокамера и еще много интересного. Посмотрите подробное описание модулей в этом приложении, щелкнув на иконку «Управление».",
 			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/2.mp3",
 			"controlPage_URL": "http://192.168.19.5",
-			"assetBundle_URL": "http://likevr.ru/intersvet2019/opora",
+			"assetBundle_URL": "https://github.com/3d03/FrequentlyUsedCode/raw/master/FrequentlyUsedCode/FrequentlyUsedCodeJSON/opora.data",
 			"prefabName":"Opora",
 			"localPositionRelativeToMarker": {
 				"x": "0",
