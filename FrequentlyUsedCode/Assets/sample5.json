@@ -1,0 +1,1078 @@
+﻿{
+	
+	"bundlesVersion": 1,
+	"это просто коммент к полю bundlesVersion": "целочисленное значение .   нужно увеличивать на 1 каждый раз когда обновлялись бандлы",
+	
+	"inJsonContentVersion": "100002",
+	"adminPassword": "1234",
+	"greeting": {
+		"greetingText": "Приветствуем Вас\n на стенде МСК \"БЛ ГРУПП\"",
+		"greetingsSoundURL": "https://likevr.ru/wp-content/uploads/2019/08/0.mp3"
+	},
+	"standMap": [{
+
+			"standID": "1",
+			"standName": "Уличное освещение",
+			"standImageURL": "https://likevr.ru/wp-content/uploads/2019/08/1-streat.png",
+			"countOfObjectsOnThisStand": "10",
+			"objectsToShowOnStandMap": [{
+					"ID": "1",
+					"name": "Освещение пешеходных переходов",
+					"relativePositionOnMap": {
+						"x": "0.959233",
+						"y": "0.378692"
+					}
+				},
+				{
+					"ID": "2",
+					"name": "«Умная» опора (3D)",
+					"relativePositionOnMap": {
+						"x": "0.839899",
+						"y": "0.192692"
+					}
+				},
+				{
+
+					"ID": "5",
+					"name": "Опоры с солнечными батареями",
+					"relativePositionOnMap": {
+						"x": "0.642462",
+						"y": "0.195361"
+					}
+				},
+				{
+
+					"ID": "7",
+					"name": "Спортивное освещение",
+					"relativePositionOnMap": {
+						"x": "0.139047",
+						"y": "0.61629"
+					}
+				},
+				{
+
+					"ID": "15",
+					"name": "Уличное освещение",
+					"relativePositionOnMap": {
+						"x": "0.913032",
+						"y": "0.877894"
+					}
+				},
+				{
+					"ID": "8",
+					"name": "Освещение аэропортов (3D)",
+					"relativePositionOnMap": {
+						"x": "0.421136",
+						"y": "0.91089"
+					}
+				},
+				{
+
+					"ID": "18",
+					"name": "Складная опора ПФ-Г",
+					"relativePositionOnMap": {
+						"x": "0.53492",
+						"y": "0.325988"
+					}
+				},
+				{
+
+					"ID": "19",
+					"name": "Мачта с мобильной короной МГФ-М",
+					"relativePositionOnMap": {
+						"x": "0.217436",
+						"y": "0.728205"
+					}
+				},
+				{
+
+					"ID": "20",
+					"name": "Системы управления освещением",
+					"relativePositionOnMap": {
+						"x": "0.53492",
+						"y": "0.609155"
+					}
+				},
+				{
+
+					"ID": "21",
+					"name": "Тоннельное освещение",
+					"relativePositionOnMap": {
+						"x": "0.138132",
+						"y": "0.269487"
+
+					}
+				}
+
+			]
+
+		},
+		{
+
+			"standID": "2",
+			"standName": "Садово-парковое освещение",
+			"standImageURL": "https://likevr.ru/wp-content/uploads/2019/08/2-garden.png",
+			"countOfObjectsOnThisStand": "4",
+			"objectsToShowOnStandMap": [{
+					"ID": "4",
+					"name": "Архитектурное освещение",
+					"relativePositionOnMap": {
+						"x": "0.244707",
+						"y": "0.899847"
+					}
+				},
+				{
+
+					"ID": "6",
+					"name": "«Умная» лавочка с USB",
+					"relativePositionOnMap": {
+						"x": "0.294707",
+						"y": "0.220227"
+					}
+				},
+				{
+					"ID": "10",
+					"name": "Тепличное освещение (3D)",
+					"relativePositionOnMap": {
+						"x": "0.86604",
+						"y": "0.302227"
+					}
+				},
+				{
+
+					"ID": "11",
+					"name": "Садово-парковое освещение",
+					"relativePositionOnMap": {
+						"x": "0.160707",
+						"y": "0.220227"
+
+					}
+				}
+
+			]
+
+		},
+		{
+
+			"standID": "3",
+			"standName": "Внутреннее освещение",
+			"standImageURL": "https://likevr.ru/wp-content/uploads/2019/08/3-inside.png",
+			"countOfObjectsOnThisStand": "6",
+			"objectsToShowOnStandMap": [{
+					"ID": "3",
+					"name": "Экспозиционное освещение (3D)",
+					"relativePositionOnMap": {
+						"x": "0.832667",
+						"y": "0.878196"
+					}
+				},
+				{
+					"ID": "9",
+					"name": "Промышленное освещение (3D)",
+					"relativePositionOnMap": {
+						"x": "0.0835",
+						"y": "0.848863"
+					}
+				},
+
+				{
+
+					"ID": "13",
+					"name": "Торговое и HoReCa освещение",
+					"relativePositionOnMap": {
+						"x": "0.506",
+						"y": "0.472813"
+					}
+				},
+				{
+
+					"ID": "14",
+					"name": "Общественное освещение",
+					"relativePositionOnMap": {
+						"x": "0.653813",
+						"y": "0.6375"
+					}
+				},
+				{
+
+					"ID": "16",
+					"name": "Офисно-административное освещение",
+					"relativePositionOnMap": {
+						"x": "0.9765",
+						"y": "0.284563"
+					}
+				},
+				{
+
+					"ID": "17",
+					"name": "Human Centric Lighting",
+					"relativePositionOnMap": {
+						"x": "0.356563",
+						"y": "0.6375"
+					}
+				}
+			]
+		},
+		{
+			"standID": "4",
+			"standName": "Офис тест",
+			"standImageURL": "https://likevr.ru/wp-content/uploads/2019/08/4-test.png",
+			"countOfObjectsOnThisStand": "7",
+			"objectsToShowOnStandMap": [{
+					"ID": "23",
+					"name": "тест 1",
+					"relativePositionOnMap": {
+						"x": "0.226195",
+						"y": "0.524166"
+					}
+				},
+				{
+					"ID": "24",
+					"name": "тест 2",
+					"relativePositionOnMap": {
+						"x": "0.533638",
+						"y": "0.544634"
+					}
+				},
+				{
+					"ID": "25",
+					"name": "тест 3",
+					"relativePositionOnMap": {
+						"x": "0.623285",
+						"y": "0.566605"
+
+					}
+				},
+				{
+
+					"ID": "26",
+					"name": "тест 4",
+					"relativePositionOnMap": {
+						"x": "0.905488",
+						"y": "0.412879"
+					}
+				}
+
+
+
+			]
+		}
+
+
+	],
+
+
+	"objects": [{
+			"ID": "1",
+			"parentMarkerID": "1",
+			"icon_URL": "URL иконки",
+			"name": "Освещение пешеходных переходов",
+			"description": "Пешеходный переход – это зона, где особенно важна безопасность. Грамотное освещение этих участков дороги значительно снижает количество ДТП. Светильники со специальной оптикой освещают только пешеходный переход и не слепят водителей. Мощность в режиме ожидания – 50%, а когда пешеходы переходят через дорогу - включаются на 100%. Попробуйте нажать кнопку!",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/1.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0.2",
+				"y": "0.2",
+				"z": "0.2"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0.6",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "2",
+			"parentMarkerID": "2",
+			"icon_URL": "URL иконки",
+			"name": "«Умная» опора (3D)",
+			"description": "Современному городу – современные технологии! Модульная конструкция позволяет собрать все необходимые функции в одной опоре: Wi-Fi, зарядка для электромобилей, общее и декоративное освещение, громкоговоритель, видеокамера и еще много интересного. Посмотрите подробное описание модулей в этом приложении, щелкнув на иконку «Управление».",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/2.mp3",
+			"controlPage_URL": "http://192.168.19.5",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "3",
+			"parentMarkerID": "3",
+			"icon_URL": "URL иконки",
+			"name": "Экспозиционное освещение (3D)",
+			"description": "Освещение культурных ценностей и выставочных экспонатов – это отдельное направление искусства. Как подчеркнуть детали и передать настроение именно так, как задумал автор? Как создать объем, движение и вдохнуть жизнь? Как передать натуральные цвета и оттенки? Заходите за ответами в наш мини-музей!",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/3.mp3",
+			"controlPage_URL": "http://192.168.19.20",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "4",
+			"parentMarkerID": "4",
+			"icon_URL": "URL иконки",
+			"name": "Архитектурное освещение",
+			"description": "Архитектурная подсветка создает уникальный образ города. Каждый освещаемый объект требует индивидуального подхода и оригинального решения, будь то мост через реку, здание театра с колоннами и скульптурами или современная высотка. Наш широкий ассортимент и колоссальный опыт позволят решить любую задачу!",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/4.mp3",
+			"controlPage_URL": "http://192.168.19.22",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		}, {
+			"ID": "5",
+			"parentMarkerID": "5",
+			"icon_URL": "URL иконки",
+			"name": "Опоры с солнечными батареями",
+			"description": "Максимальная энергоэффективность за счет природного источника энергии! Подойдут для использования в солнечных регионах, а также для объектов, к которым затруднен подвод питающих кабелей.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/5.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "6",
+			"parentMarkerID": "6",
+			"icon_URL": "URL иконки",
+			"name": "«Умная» лавочка с USB",
+			"description": "Стильная лавочка с подсветкой позволит зарядить ваши гаджеты и создаст праздничное настроение на улицах города в вечернее время. Присядьте немного отдохнуть!",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/6.mp3",
+			"controlPage_URL": "http://192.168.19.26",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "7",
+			"parentMarkerID": "7",
+			"icon_URL": "URL иконки",
+			"name": "Спортивное освещение",
+			"description": "Профессиональное освещение любого уровня – от детской спортивной площадки до стадиона мирового класса. Десять видов оптики, модульные конструкции прожекторов, специальные модификации для ледовых арен, интеграция в системы управления освещением. Заходите поиграть!",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/7.mp3",
+			"controlPage_URL": "http://192.168.19.23",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "8",
+			"parentMarkerID": "8",
+			"icon_URL": "URL иконки",
+			"name": "Освещение аэропортов (3D)",
+			"description": "Светосигнальные огни устанавливаются на взлетно-посадочную полосу в определенной последовательности, чтобы упростить работу пилотов в темное время суток или в условиях недостаточной видимости. Хотите попробовать посадить самолет в нашей мини-игре?",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/8.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "9",
+			"parentMarkerID": "9",
+			"icon_URL": "URL иконки",
+			"name": "Промышленное освещение (3D)",
+			"description": "Качественное освещение производственных предприятий повышает производительность и обеспечивает безопасность сотрудников. Для работы с мелкими деталями и травмоопасным оборудованием важна высокая освещенность, равномерность и низкий коэффициент пульсаций.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/9.mp3",
+			"controlPage_URL": "http://192.168.19.25",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "10",
+			"parentMarkerID": "10",
+			"icon_URL": "URL иконки",
+			"name": "Тепличное освещение (3D)",
+			"description": "Профессиональные облучатели для тепличных комплексов – общее освещение, межрядовая досветка, многоярусные установки. Различные спектральные комбинации в зависимости от вида выращиваемой культуры.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/10.mp3",
+			"controlPage_URL": "http://192.168.19.24",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "11",
+			"parentMarkerID": "11",
+			"icon_URL": "URL иконки",
+			"name": "Садово-парковое освещение",
+			"description": "Современные обтекаемые формы для мегаполисов, территорий офисных и торговых центров. Неустаревающая классика для исторического центра города, уютных скверов, парков и набережных. Максимальный визуальный комфорт без слепящего эффекта.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/11.mp3",
+			"controlPage_URL": "http://192.168.19.21",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		
+			
+		{
+
+			"ID": "13",
+			"parentMarkerID": "13",
+			"icon_URL": "URL иконки",
+			"name": "Торговое и HoReCa освещение",
+			"description": "Линейные светильники со специальной оптикой для равномерного освещения торговых стеллажей в гипермаркетах, общее и акцентное освещение бутиков. Высокое качество цветопередачи светильников и большой диапазон цветовых температур для освещения различных групп товаров повысят привлекательность магазина для посетителей.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/13.mp3",
+			"controlPage_URL": "http://192.168.19.28",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "14",
+			"parentMarkerID": "14",
+			"icon_URL": "URL иконки",
+			"name": "Общественное освещение",
+			"description": "Освещение в подъездах работает круглые сутки, поэтому оно должно быть энергоэффективным, а значит – светодиодным! Комплектация датчиком движения или звука поможет еще больше сократить затраты на электроэнергию. Прочный корпус убережет светильник от вандалов, а аварийный блок питания не оставит вас без света в критической ситуации",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/14.mp3",
+			"controlPage_URL": "http://192.168.19.29",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "15",
+			"parentMarkerID": "15",
+			"icon_URL": "URL иконки",
+			"name": "Уличное освещение (3D)",
+			"description": "Правильное освещение дорог – это наша безопасность, это имидж и показатель уровня развития города. Наша Корпорация – лидер в уличном освещении, поэтому мы точно знаем, что вам предложить!",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/15.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "16",
+			"parentMarkerID": "16",
+			"icon_URL": "URL иконки",
+			"name": "Офисно-административное освещение",
+			"description": "В наше время уже никого не удивить офисным светодиодным светильником. Но что вы знаете о качестве и соответствии нормативам? Мы расскажем, какое освещение можно применять в учебных заведениях и в больницах, в офисах и на рабочих местах для повышения работоспособности сотрудников.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/16.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "17",
+			"parentMarkerID": "17",
+			"icon_URL": "URL иконки",
+			"name": "Human Centric Lighting",
+			"description": "Умная биодинамическая система искусственного освещения имитирует естественную световую среду за счет изменения интенсивности и цветовой температуры. Применяется в учебных и медицинских учреждениях, на рабочих местах для улучшения самочувствия, повышения концентрации, работоспособности и синхронизации биоритмов.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/17.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "18",
+			"parentMarkerID": "18",
+			"icon_URL": "URL иконки",
+			"name": "Складная опора ПФ-Г",
+			"description": "Опора с поворотным механизмом позволяет производить обслуживание установленных светильников, не снимая с опоры и без использования специальной техники. Использование складных опор значительно сокращает эксплуатационные расходы, а также не затрудняет автомобильное движение на время обслуживания зоны.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/18.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "https://likevr.ru/wp-content/uploads/2019/08/opora",
+			"prefabName":"Opora",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "19",
+			"parentMarkerID": "19",
+			"icon_URL": "URL иконки",
+			"name": "Мачта с мобильной короной МГФ-М",
+			"description": "Мачты предназначены для освещения больших открытых пространств, объектов инфраструктуры, автомагистралей, территорий морских и воздушных портов. Корона мачты опускается на удобную высоту 1,5 – 2 метра для обслуживания.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/19.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "true",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "20",
+			"parentMarkerID": "20",
+			"icon_URL": "URL иконки",
+			"name": "Системы управления освещением",
+			"description": "Одним из эффективных методов повышения энергоэффективности системы освещения и снижения затрат на её эксплуатацию является использование систем управления освещением. Основываясь на многолетнем опыте эксплуатации различных объектов, мы  разработали собственную систему управления АСУНО «БРИЗ», которая включает в себя линейку различного оборудования и программного обеспечения, предназначенного для автоматизации систем уличного, архитектурного и промышленного освещения.",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/20.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "21",
+			"parentMarkerID": "21",
+			"icon_URL": "URL иконки",
+			"name": "Тоннельное освещение",
+			"description": "Комплексное освещение автотранспортных тоннелей: основное, аварийное, габаритное, эвакуационное, специальное. Опираясь на опыт проектирования, производства и применения тоннельных светильников на газоразрядных лампах, мы первые в России создали полностью светодиодные комплексы для освещения тоннелей. Первые объекты на них реализованы в рамках проекта подготовки Сочинской олимпиады.",
+			"sound_URL": "",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "false"
+		},
+		{
+
+			"ID": "22",
+			"parentMarkerID": "22",
+			"icon_URL": "URL иконки",
+			"name": "Тест 1",
+			"description": "Тестовое описани для навигации",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/20.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "true"
+		},
+		{
+
+			"ID": "23",
+			"parentMarkerID": "23",
+			"icon_URL": "URL иконки",
+			"name": "Тест 2",
+			"description": "Тестовое описани для навигации",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/20.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "true"
+		},
+		{
+
+			"ID": "24",
+			"parentMarkerID": "24",
+			"icon_URL": "URL иконки",
+			"name": "Тест 3",
+			"description": "Тестовое описани для навигации",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/20.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "true"
+		},
+		{
+
+			"ID": "25",
+			"parentMarkerID": "25",
+			"icon_URL": "URL иконки",
+			"name": "Тест 4",
+			"description": "Тестовое описани для навигации",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/20.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "true"
+		},
+		{
+
+			"ID": "26",
+			"parentMarkerID": "26",
+			"icon_URL": "URL иконки",
+			"name": "Тест 4",
+			"description": "Тестовое описани для навигации",
+			"sound_URL": "https://likevr.ru/wp-content/uploads/2019/08/20.mp3",
+			"controlPage_URL": "url на контроль страницу",
+			"assetBundle_URL": "линк на ассет бандл",
+			"prefabName":"",
+			"localPositionRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localRotationRelativeToMarker": {
+				"x": "0",
+				"y": "0",
+				"z": "0"
+			},
+			"localScaleRelativeToMarker": {
+				"x": "1",
+				"y": "1",
+				"z": "1"
+			},
+			"isWithArContent": "false",
+			"isTestObject": "true"
+		}
+
+	],
+	"markers": [{
+			"ID": "22",
+			"imageTargetName": "marker22",
+			"XYZ_position_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_rotation_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_scale_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			}
+
+		},
+		{
+
+			"ID": "23",
+			"imageTargetName": "marker23",
+			"XYZ_position_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_rotation_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_scale_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			}
+
+		},
+		{
+
+			"ID": "24",
+			"imageTargetName": "marker24",
+			"XYZ_position_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_rotation_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_scale_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			}
+
+		},
+		{
+
+			"ID": "25",
+			"imageTargetName": "marker25",
+			"XYZ_position_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_rotation_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+			},
+			"XYZ_scale_in_world": {
+				"x": "0.4",
+				"y": "0.6",
+				"z": "0.7"
+
+
+
+			}
+		}
+	]
+}
+

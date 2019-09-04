@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\StringToFieldTest.cs" />
     <Compile Include="Assets\Scripts\Testing.cs" />
     <Compile Include="Assets\Scripts\Tests\CoroutinesTests\CoroutTestOne.cs" />
+    <Compile Include="Assets\Scripts\Tests\CoroutinesTests\CorTest.cs" />
     <Compile Include="Assets\Scripts\Tests\ObjectFinalization\TreeController.cs" />
     <Compile Include="Assets\Scripts\Tests\OOP_SOLID\InheritanceTests.cs" />
     <Compile Include="Assets\Scripts\Tests\ReflectionTests.cs" />

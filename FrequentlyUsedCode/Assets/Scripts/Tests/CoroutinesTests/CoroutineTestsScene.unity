@@ -321,15 +321,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137684041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f211642e3f323a74a99791e80afb3518, type: 3}
+  m_Script: {fileID: 11500000, guid: de3660d2008d757469975789eab995f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  f: 0
-  moveGO: {fileID: 1983488085}
-  moveTime: 4.88
-  moveSpeed: 0.1
-  A: {fileID: 1929462681}
-  B: {fileID: 606664052}
+  dir: {x: 3.5, y: 2.48, z: 0}
+  mover: {fileID: 1983488085}
 --- !u!4 &1137684043
 Transform:
   m_ObjectHideFlags: 0
@@ -539,6 +535,7 @@ GameObject:
   - component: {fileID: 1983488088}
   - component: {fileID: 1983488087}
   - component: {fileID: 1983488086}
+  - component: {fileID: 1983488090}
   m_Layer: 0
   m_Name: MoveObj
   m_TagString: Untagged
@@ -619,3 +616,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1983488090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983488085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a74e45016666e244cb2fe2b559d91a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  genericClickSoundName: button
+  useGenerickClickSoundForAll: 1
+  clickEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1137684042}
+        m_MethodName: Move
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  clickSoundNames: []
